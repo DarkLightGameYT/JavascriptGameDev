@@ -1,0 +1,77 @@
+Names of Blocks and their ID's (Vanilla PaperMC)
+
+[
+  blockName: Air
+  blockID: 0
+  (minecraft:air)
+];
+[
+  blockName: Stone 
+  blockID: 1
+  (minecraft:stone)
+];
+[
+  blockName: Granite
+  blockID: 1:1
+  (minecraft:stone)
+];
+[
+  blockName: Polished Granite
+  blockID: 1:2
+  (minecraft:stone)
+];
+[
+  blockName: Diorite
+  blockID: 1:3
+  (minecraft:stone)
+];
+[
+  blockName: Polished Diorite
+  blockID: 1:4
+  (minecraft:stone)
+];
+[
+  blockName: Andesite
+  blockID: 1:5
+  (minecraft:stone)
+];
+[
+  blockName: Polished Andesite
+  blockID: 1:6
+  (minecraft:stone)
+];
+[
+  blockName: Grass
+  blockID: 2
+  (minecraft:grass)
+];
+[
+  blockName: Dirt
+  blockID: 3
+  (minecraft:dirt)
+];
+[
+  blockName: Coarse Dirt
+  blockID: 3:1
+  (minecraft:dirt)
+];
+[
+  blockName: Podzol
+  blockID: 3:2
+  (minecraft:dirt)
+];
+[
+  blockname: Cobblestone
+  blockID: 4
+  (minecraft:cobblestone)
+];
+[
+  blockname: Oak Wood Plank
+  blockID: 5
+  (minecraft:planks)
+];
+[
+  blockname: Spruce Wood Plank
+  blockID: 5:1
+  (minecraft:planks)
+];
