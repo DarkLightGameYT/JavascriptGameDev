@@ -20,16 +20,16 @@ Names of Blocks and their ID's (Vanilla PaperMC)
   blockID: 1:2                        |   blockID: 6:3
   (minecraft:stone)                   |   (minecraft:sapling)
 ];                                    | ];
-[
-  blockName: Diorite
-  blockID: 1:3
-  (minecraft:stone)
-];
-[
-  blockName: Polished Diorite
-  blockID: 1:4
-  (minecraft:stone)
-];
+[                                     | [
+  blockName: Diorite                  |   blockName: Acacia Sapling
+  blockID: 1:3                        |   blockID: 6:4
+  (minecraft:stone)                   |   (minecraft:sapling)
+];                                    | ];
+[                                     | [
+  blockName: Polished Diorite         |  blockName: Dark Oak Sapling
+  blockID: 1:4                        |  blockID: 6:5
+  (minecraft:stone)                   |  (minecraft:sapling)
+];                                    | ];
 [
   blockName: Andesite
   blockID: 1:5
