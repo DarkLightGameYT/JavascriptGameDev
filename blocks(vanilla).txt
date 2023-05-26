@@ -1,25 +1,25 @@
 Names of Blocks and their ID's (Vanilla PaperMC)
 
-[
-  blockName: Air
-  blockID: 0
-  (minecraft:air)
-];
-[
-  blockName: Stone 
-  blockID: 1
-  (minecraft:stone)
-];
-[
-  blockName: Granite
-  blockID: 1:1
-  (minecraft:stone)
-];
-[
-  blockName: Polished Granite
-  blockID: 1:2
-  (minecraft:stone)
-];
+[                                     | [
+  blockName: Air                      |   blockName: Oak Sapling
+  blockID: 0                          |   blockID: 6
+  (minecraft:air)                     |   (minecraft:sapling)
+];                                    | ];
+[                                     | [
+  blockName: Stone                    |   blockName: Spruce Sapling  
+  blockID: 1                          |   blockID: 6:1
+  (minecraft:stone)                   |   (minecraft:sapling)
+];                                    | ];
+[                                     | [
+  blockName: Granite                  |   blockName: Birch Sapling
+  blockID: 1:1                        |   blockID: 6:2
+  (minecraft:stone)                   |   (minecraft:sapling)
+];                                    | ];
+[                                     | [
+  blockName: Polished Granite         |   blockName: Jungle Sapling
+  blockID: 1:2                        |   blockID: 6:3
+  (minecraft:stone)                   |   (minecraft:sapling)
+];                                    | ];
 [
   blockName: Diorite
   blockID: 1:3
@@ -61,17 +61,40 @@ Names of Blocks and their ID's (Vanilla PaperMC)
   (minecraft:dirt)
 ];
 [
-  blockname: Cobblestone
+  blockName: Cobblestone
   blockID: 4
   (minecraft:cobblestone)
 ];
 [
-  blockname: Oak Wood Plank
+  blockName: Oak Wood Plank
   blockID: 5
   (minecraft:planks)
 ];
 [
-  blockname: Spruce Wood Plank
+  blockName: Spruce Wood Plank
   blockID: 5:1
   (minecraft:planks)
+];
+[
+  blockName: Birch Wood Plank
+  blockID: 5:2
+  (minecraft:planks)
+];
+[
+  blockName: Jungle Wood Plank
+  blockID: 5:3
+  (minecraft:planks)
+];
+[
+  blockName: Acacia Wood Plank
+  blockID: 5:4
+  (minecraft:planks)
+];
+[
+  blockName: Dark Oak Wood Plank
+  blockID: 5:5
+  (minecraft:planks)
+];
+[
+
 ];
