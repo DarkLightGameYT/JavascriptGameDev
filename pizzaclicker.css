@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 
+body {
+    background-color: white;
+}
+
+#pizzaClicker {
+    background-color: white;
+    border: white 3px solid;
+}
+
 #pizzaCounter {
     font-family: 'Press Start 2P', cursive;
+    text-align: center;
 }
 
 h3 {
     font-size: 27px;
     font-family: 'Press Start 2P', cursive;
+    text-align: center;
 }
 
 .navbar {
@@ -160,12 +171,12 @@ dropdown-content {
 }
 
 #ImageTwo {
-    border: none;
-    padding: 0;
-    background: none;
     cursor: pointer;
-    height: 305px;
-    width: 305px;
+    display: table-cell;
+    height: 350px;
+    width: 350px;
+    padding-left: 560px;
+    border: white 5px solid;
 }
 
 .cursorImageBtn {
