@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+#pizzaCounter {
+    font-family: 'Press Start 2P', cursive;
+}
+
+h3 {
+    font-size: 27px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.navbar {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+    color: white;
+}
+
+dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#h2fontstylename {
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+}
+
+#h2fontstyleamount {
+    font-family: monospace;
+    font-size: 13px;
+}
+
+#buildingsBtn {
+    border: 3px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding-left: 3px;
+    text-align: left;
+}
+
+#upgradesBtn {
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#achievementsBtn {
+    border: 1px;
+    border-radius: 1px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#shdwachievementsBtn {
+    border: #663399 3px solid;
+    color: #663399;
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+}
+
+#orichalcosshdwachievementsBtn {
+    border: #663399 5px solid;
+    color: #00ff73;
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+}
+
+#orichalcosupgradesBtn {
+    color: #00ff73;
+    border: #00ff73 3px solid;
+    font-size: 10px;
+    border-radius: 5px;
+    background-color: wite;
+    cursor: pointer;
+}
+
+
+#orichalcosultimateupgradesBtn {
+    color: #00ff73;
+    border: #00ff73 3px solid;
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+}
+
+#h2orichalcosfontstylename {
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+}
+
+#h2orichalcosfontstyleamount {
+    font-family: monospace;
+    font-size: 5px;
+}
+
+#ImageOne {
+    height: 85px;
+    width: 85px;
+    cursor: pointer;
+}
+
+#weaponsupgradeBtn {
+    border: brown 5px solid;
+    background-color: black;
+    cursor: pointer;
+    padding: 0;
+}
+
+#ImageTwo {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    height: 305px;
+    width: 305px;
+}
+
+.cursorImageBtn {
+    background-image:url(108-1083744_windows-10-cursor-png-cursor-icon-png-transparent.png) right no-repeat;
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
