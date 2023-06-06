@@ -35,6 +35,11 @@ body {
     background-color: black;   
 }
 
+#hronesize {
+    height: 5px;
+    background-color: white;
+}
+
 #version {
     border: black 3px solid;
     border-radius: 3px;
@@ -47,8 +52,8 @@ body {
 }
 
 #pizzaClicker {
-    background-color:   black;
-    border: black 3px solid;
+    background-color: transparent;
+    border: none;
 }
 
 #pizzaCounter {
@@ -96,7 +101,7 @@ h3 {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: black;
+    background-color: red;
     color: white;
 }
 
@@ -129,14 +134,24 @@ dropdown-content {
 #h2fontstylename {
     font-family: 'Press Start 2P';
     font-size: 15px;
+    color: white;
+}
+
+#pfontstyle {
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    color: white;
 }
 
 #h2fontstyleamount {
     font-family: monospace;
     font-size: 13px;
+    color: white;
 }
 
 #buildingsBtn {
+    background-color: black;
+    color: white;
     border: 3px solid;
     border-radius: 5px;
     cursor: pointer;
@@ -196,11 +211,13 @@ dropdown-content {
 #h2orichalcosfontstylename {
     font-family: 'Press Start 2P';
     font-size: 10px;
+    color: white;
 }
 
 #h2orichalcosfontstyleamount {
     font-family: monospace;
     font-size: 5px;
+    color: white;
 }
 
 #ImageOne {
@@ -221,11 +238,12 @@ dropdown-content {
     background: none;
     height: 350px;
     width: 350px;
-    border: black 5px solid;
+    border: none;
 }
 
 .cursorImageBtn {
     background-image:url(108-1083744_windows-10-cursor-png-cursor-icon-png-transparent.png);
+    background-color: transparent;
     height: 30px;
     width: 30px;
     padding-right: 10px;
