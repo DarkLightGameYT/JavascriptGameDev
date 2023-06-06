@@ -1,16 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+.rotate {
+    animation: rotate 15s;
+    text-align: center;
+  }
+  
+  .linear {
+    animation-timing-function: linear;
+  }
+  
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+
+
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  header {
+    background-color: black;
+    color: white;
+    height: 36px;
+}
+ 
 
 body {
-    background-color: white;
+    background-color: black;   
+}
+
+#version {
+    border: black 3px solid;
+    border-radius: 3px;
+}
+
+#seperate {
+    background-color: black;
+    color: white;
+    
 }
 
 #pizzaClicker {
-    background-color: white;
-    border: white 3px solid;
+    background-color:   black;
+    border: black 3px solid;
 }
 
 #pizzaCounter {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+#pizzapersecCounter {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
 }
@@ -172,16 +218,20 @@ dropdown-content {
 
 #ImageTwo {
     cursor: pointer;
-    display: table-cell;
+    background: none;
     height: 350px;
     width: 350px;
-    padding-left: 560px;
-    border: white 5px solid;
+    border: black 5px solid;
 }
 
 .cursorImageBtn {
-    background-image:url(108-1083744_windows-10-cursor-png-cursor-icon-png-transparent.png) right no-repeat;
+    background-image:url(108-1083744_windows-10-cursor-png-cursor-icon-png-transparent.png);
     height: 30px;
     width: 30px;
     padding-right: 10px;
+}
+
+.upgradeImageBtn {
+    height: 35px;
+    width: 35px;
 }

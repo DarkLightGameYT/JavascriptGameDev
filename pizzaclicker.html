@@ -18,18 +18,22 @@
     <script src="pizzaclicker.js"></script>
 
 
-    <h3><u>Pizza Clicker</u></h3> 
-
-   
-    <div id="pizzaImage">
-      <button id="pizzaClicker"><img id="ImageTwo" src="pepperoni-pizza-white-background.jpg" /></button><br><br>
-        <div id="pizzaCounter" style="font-size: 30px;"><0 pizzas></div>
-        <div id="pizzaCounter" style="font-size: 30px;"><0 pizzas per second></div>        
-    </div>
-    <br>
-    <br>
- <hr>
-
+    
+    <header><h3><u>Pizza Clicker</u></h3></header>
+    <button id="version">BETA v1</button>
+    <br><br><br><br><br>
+    <div class="rotate"><div></div>
+    <div id="pizzaImage"></div>
+      <button class="rotate linear infinite" id="pizzaClicker"><img id="ImageTwo" src="pizzaclickable.png" /></button>
+      </div>
+      <br><br><br><br><br>
+      <div id="seperate"><div id="pizzaCounter" style="font-size: 30px;"><0 pizzas></div>
+      <br>
+      <br>
+      <div id="pizzapersecCounter" style="font-size: 30px;"><0 pizzas per second></div>
+      </div>  
+<br>
+ 
  <div class="navbar">
     <div class="dropdown">
       <button class="dropbtn">Buildings
@@ -49,6 +53,7 @@
         <button id="buildingsBtn" alt="?"><h2 id="h2fontstylename">Time Machine</h2><h2 id="h2fontstyleamount">14,000,000,000 Pizzas</h2></button>
         <button id="buildingsBtn" alt="?"><h2 id="h2fontstylename">Antimatter Condenser</h2><h2 id="h2fontstyleamount">170,000,000,000 Pizzas</h2></button>
         <button id="buildingsBtn" alt="?"><h2 id="h2fontstylename">Prism</h2><h2 id="h2fontstyleamount">2,100,000,000,000 Pizzas</h2></button>
+        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Jeweler</h2><h2 id="h2fontstyleamount">2,100,000,000,000 Pizzas</h2></button>
         <button id="buildingsBtn" alt="?"><h2 id="h2fontstylename">The Chancemaker</h2><h2 id="h2fontstyleamount">26,000,000,000,000 Pizzas</h2></button>
         <button id="buildingsBtn" alt="?"><h2 id="h2fontstylename">Fractal Code Engine</h2><h2 id="h2fontstyleamount">310,000,000,000,000 Pizzas</h2></button>
         <button id="buildingsBtn" alt="?"><h2 id="h2fontstylename">Javascript Console</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
@@ -59,23 +64,7 @@
       </div>
     </div>
   </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <hr>
 <div class="navbar">
     <div class="dropdown">
@@ -83,7 +72,8 @@
         <i class="bi bi-arrow-down-up"></i>
       </button>
       <div class="dropdown-content">
-        <button id="weaponsupgradeBtn" title="Tournesol Ultima - Otherwise known as the Bane of Dragons, this sword has tremendous magical abilities."><img id="ImageOne" src="Tournesultima_Greatsword.png" /></button>
+        <button id="upgradesBtn" title="Ambidextrous-  'Look mom! Both hands!'" alt="?"><h2 id="h2fontstylename"><img class="upgradeImageBtn" src="Blue_Cursor1.png" /></button> 
+        <!-- 
         <button id="upgradesBtn" title="?"><h2 id="h2fontstylename">Carpal tunnel pervention cream</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
         <button id="upgradesBtn" alt="?"><h2 id="h2fontstylename">Reinforced index finger</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
         <button id="upgradesBtn" alt="?"><h2 id="h2fontstylename">Ambidextrous</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
@@ -109,6 +99,7 @@
         <button id="orichalcosupgradesBtn" alt="?"><h2 id="h2orichalcosfontstylename">Thousand Fingers of the Orichalcos</h2><h2 id="h2orichalcosfontstyleamount">??? Souls</h2></button>
         <button id="orichalcosupgradesBtn" alt="?"><h2 id="h2orichalcosfontstylename">Million Fingers of the Orichalcos</h2><h2 id="h2orichalcosfontstyleamount">??? Souls</h2></button><br><br>
         <button id="orichalcosultimateupgradesBtn" alt="?"><h2 id="h2orichalcosfontstylename">Soul Harvester of the Orichalcos</h2><h2 id="h2orichalcosfontstyleamount">??? Souls</h2></button>
+          
       </div>
     </div>
   </div>
@@ -127,13 +118,18 @@
   <br><br>
   <br><br>
   <br><br>
+-->
+
   <hr>
 <div class="navbar">
     <div class="dropdown">
       <button class="dropbtn">Achievements
         <i class="bi bi-arrow-down-up"></i>
       </button>
+       <!-- 
       <div class="dropdown-content">
+
+        
         <button id="achievementsBtn" alt="?"><h2 id="h2fontstylename">Wake and Bake</h2></button>
         <button id="achievementsBtn" alt="?"><h2 id="h2fontstylename">Making some dough</h2></button>
         <button id="achievementsBtn" alt="?"><h2 id="h2fontstylename">So baked right now</h2></button>
@@ -179,7 +175,13 @@
   <br>
   <br>
   <br>
+
+-->
+
 <hr>
+
+
+
 <div class="navbar">
     <div class="dropdown">
       <button class="dropbtn">Statistics 
