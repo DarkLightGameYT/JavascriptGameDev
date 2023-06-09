@@ -24,39 +24,54 @@
     }
   }
 
-  header {
-    background-color: black;
+header {
+    background-color: transparent;
     color: white;
-    height: 36px;
+    height: 35px;
 }
- 
+
+footer {
+    height: 50px;
+    background: #000000;
+    color: #FFFFFF;
+}
 
 body {
-    background-color: black;   
+    background-image:url(th-4068319522.png);
+
 }
 
-#hronesize {
-    height: 5px;
-    background-color: white;
+
+h3 {
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
 }
+
 
 #version {
     border: black 3px solid;
     border-radius: 3px;
 }
 
+#pizzastext {
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+
 #seperate {
-    background-color: black;
-    color: white;
+    background-color: rgba(0,0,0,0.5);
+    color:  white;
     
 }
 
-#pizzaClicker {
+#incrementButton {
     background-color: transparent;
     border: none;
+   
 }
 
-#pizzaCounter {
+#currentCount {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
 }
@@ -66,92 +81,28 @@ body {
     text-align: center;
 }
 
-h3 {
-    font-size: 27px;
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-}
-
-.navbar {
-    font-family: 'Press Start 2P', cursive;
-}
-
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: black;
-    padding: 14px 16px;
-    background-color: white;
-    font-family: 'Press Start 2P', cursive;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-    color: white;
-}
-
-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 #h2fontstylename {
     font-family: 'Press Start 2P';
     font-size: 15px;
-    color: white;
+    color: black;
 }
 
 #pfontstyle {
     font-family: 'Press Start 2P';
     font-size: 15px;
-    color: white;
+    color: black;  
 }
 
 #h2fontstyleamount {
     font-family: monospace;
     font-size: 13px;
-    color: white;
+    color: black;
 }
 
 #buildingsBtn {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border: 3px solid;
     border-radius: 5px;
     cursor: pointer;
@@ -236,13 +187,13 @@ dropdown-content {
 #ImageTwo {
     cursor: pointer;
     background: none;
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 400px;
     border: none;
 }
 
 .cursorImageBtn {
-    background-image:url(108-1083744_windows-10-cursor-png-cursor-icon-png-transparent.png);
+    background-image:url(108-1083744_windows-10-cursor-png-cursor-icon-png-transparent.png)right no-repeat;
     background-color: transparent;
     height: 30px;
     width: 30px;
@@ -252,4 +203,52 @@ dropdown-content {
 .upgradeImageBtn {
     height: 35px;
     width: 35px;
+}
+
+#shopBtn {
+    width: 375px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#changelogBtn {
+    width: 375px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#statBtn {
+    width: 375px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#optionsBtn {
+    width: 375px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#shopBtn:hover {
+    background: black;
+    color: white;
+}
+
+#changelogBtn:hover {
+    background: black;
+    color: white;
+}
+
+#statBtn:hover {
+    background: black;
+    color: white;
+}
+
+#optionsBtn:hover {
+    background: black;
+    color: white;
 }

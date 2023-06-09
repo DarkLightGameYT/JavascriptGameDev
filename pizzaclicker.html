@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pizzaclicker.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -14,66 +14,47 @@
 </head>
 
 <body>
+  <script src="pizzaclicker.js"></script>
 
-    <script src="pizzaclicker.js"></script>
-
-
-    <header><button id="version">BETA v1</button><h3><u>Pizza Clicker</u></h3>
-    </header>
-    <br><br><br><br>
+    <header><button id="version">BETA - ??/??/??</button><h3><u>Pizza Clicker</u></h3></header><br><br>
+    <div id="seperate">
+      <h3><span id="currentCount">0</span> pizzas</h3>
+      <h3><span id="perseccurrentCount">0</span> pizzas per second</h3>
+      </div>
+    <br><br>
     <div class="rotate"><div></div>
     <div id="pizzaImage"></div>
-      <button class="rotate linear infinite" id="pizzaClicker"><img id="ImageTwo" src="pizzaclickable.png" /></button>
-      </div>
-      <br><br><br><br><br><br>
-      <div id="seperate"><div id="pizzaCounter" style="font-size: 30px;"><0 pizzas></div>
-      <br>
-      <br>
-      <div id="pizzapersecCounter" style="font-size: 30px;"><0 pizzas per second></div>
-      </div>  
-<hr id="hronesize">
-<br>
- 
- <div class="navbar">
-    <div class="dropdown">
-      <button class="dropbtn">Buildings
-        <i class="bi bi-arrow-down-up"></i>
-      </button>
-      <div class="dropdown-content">
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename"><img class="cursorImageBtn" src="108-1083744_windows-10-cursor-png-cursor-icon-png-transparent.png" />Cursor</h2><h2 id="h2fontstyleamount">15 Pizzas</h2></button> 
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Granny</h2><h2 id="h2fontstyleamount">100 Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Farm</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Factory</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Pizzeria</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Bank</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Temple of the Pizza Gods</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Spiral Tower</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Shipments</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Alchemic Lab</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Time Machine</h2><h2 id="h2fontstyleamount">14,000,000,000 Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Antimatter Condenser</h2><h2 id="h2fontstyleamount">170,000,000,000 Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Prism</h2><h2 id="h2fontstyleamount">2,100,000,000,000 Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Jeweler</h2><h2 id="h2fontstyleamount">2,100,000,000,000 Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">The Chancemaker</h2><h2 id="h2fontstyleamount">26,000,000,000,000 Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Fractal Code Engine</h2><h2 id="h2fontstyleamount">310,000,000,000,000 Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Javascript Console</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Idleverse</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Cortex Baker</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Transdimensional Pizza Vortex</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-        <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">You</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
-      </div>
-    </div>
-  </div>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <button class="rotate linear infinite" id="incrementButton"><img id="ImageTwo" src="pizzaclickable.png" /></button>
+        </div>
+<br><br>
 <hr>
-<div class="navbar">
-    <div class="dropdown">
-      <button class="dropbtn">Upgrades
-        <i class="bi bi-arrow-down-up"></i>
-      </button>
-      <div class="dropdown-content">
+<button id="shopBtn">Shop</button><button id="changelogBtn">Changelog</button><button id="statBtn">Stats</button><button id="optionsBtn">Options</button><br><br>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename"><img class="cursorImageBtn" src="108-1083744_windows-10-cursor-png-cursor-icon-png-transparent.png" />Cursor</h2><h2 id="h2fontstyleamount">15 Pizzas</h2></button></li>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Granny</h2><h2 id="h2fontstyleamount">100 Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Farm</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Factory</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Pizzeria</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Bank</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Temple of the Pizza Gods</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Spiral Tower</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Shipments</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Alchemic Lab</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Time Machine</h2><h2 id="h2fontstyleamount">14,000,000,000 Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Antimatter Condenser</h2><h2 id="h2fontstyleamount">170,000,000,000 Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Prism</h2><h2 id="h2fontstyleamount">2,100,000,000,000 Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Jeweler</h2><h2 id="h2fontstyleamount">2,100,000,000,000 Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">The Chancemaker</h2><h2 id="h2fontstyleamount">26,000,000,000,000 Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Fractal Code Engine</h2><h2 id="h2fontstyleamount">310,000,000,000,000 Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Javascript Console</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Idleverse</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Cortex Baker</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">Transdimensional Pizza Vortex</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+    <button id="buildingsBtn" title="?"><h2 id="h2fontstylename">You</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
+  <br><br>
+<hr>
+    
         <button id="upgradesBtn" title="Ambidextrous-  'Look mom! Both hands!'" alt="?"><h2 id="h2fontstylename"><img class="upgradeImageBtn" src="Blue_Cursor1.png" /></button> 
-        <!-- 
+<!-- 
         <button id="upgradesBtn" title="?"><h2 id="h2fontstylename">Carpal tunnel pervention cream</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
         <button id="upgradesBtn" alt="?"><h2 id="h2fontstylename">Reinforced index finger</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
         <button id="upgradesBtn" alt="?"><h2 id="h2fontstylename">Ambidextrous</h2><h2 id="h2fontstyleamount">??? Pizzas</h2></button>
@@ -100,36 +81,10 @@
         <button id="orichalcosupgradesBtn" alt="?"><h2 id="h2orichalcosfontstylename">Million Fingers of the Orichalcos</h2><h2 id="h2orichalcosfontstyleamount">??? Souls</h2></button><br><br>
         <button id="orichalcosultimateupgradesBtn" alt="?"><h2 id="h2orichalcosfontstylename">Soul Harvester of the Orichalcos</h2><h2 id="h2orichalcosfontstyleamount">??? Souls</h2></button>
           
-      </div>
-    </div>
-  </div>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
 -->
+<hr>
 
-  <hr>
-<div class="navbar">
-    <div class="dropdown">
-      <button class="dropbtn">Achievements
-        <i class="bi bi-arrow-down-up"></i>
-      </button>
-       <!-- 
-      <div class="dropdown-content">
-
-        
+<!--  
         <button id="achievementsBtn" alt="?"><h2 id="h2fontstylename">Wake and Bake</h2></button>
         <button id="achievementsBtn" alt="?"><h2 id="h2fontstylename">Making some dough</h2></button>
         <button id="achievementsBtn" alt="?"><h2 id="h2fontstylename">So baked right now</h2></button>
@@ -146,70 +101,18 @@
         <button id="orichalcosshdwachievementsBtn" title="?"><h2 id="h2fontstylename">Soul Catching I</h2></button>
         <button id="orichalcosshdwachievementsBtn" title="?"><h2 id="h2fontstylename">Soul Catching II</h2></button>
         <button id="orichalcosshdwachievementsBtn" title="?"><h2 id="h2fontstylename">Soul Catching III</h2></button>
-      </div>
-    </div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
 -->
 <br>
 <hr>
-
-
-
-<div class="navbar">
-    <div class="dropdown">
-      <button class="dropbtn">Statistics 
-        <i class="bi bi-arrow-down-up"></i>
-      </button>
-      <div class="dropdown-content">
-        <p id="pfontstyle">Pizzas in Bank: 0 pizzas</p>
-        <p id="pfontstyle">Pizzas Per Second: 0 PPS</p>
-        <p id="pfontstyle">Pizzas Baked (This Ascension): 0 pizzas</p>
-        <p id="pfontstyle">Pizzas Baked (All-Time): 0 pizzas</p>
-      </div>
-    </div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-<hr>
-    
+      <p id="pfontstyle">Pizzas in Bank: 0 pizzas</p>
+      <p id="pfontstyle">Pizzas Per Second: 0 PPS</p>
+      <p id="pfontstyle">Pizzas Baked (This Ascension): 0 pizzas</p>
+      <p id="pfontstyle">Pizzas Baked (All-Time): 0 pizzas</p>     
 
 </body>
+
+<footer>
+  © Copyright 2023 Pizza Clicker
+</footer>
 
 </html>
