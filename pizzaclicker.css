@@ -88,11 +88,6 @@ h3 {
     color: black;
 }
 
-#pfontstyle {
-    font-family: 'Press Start 2P';
-    font-size: 15px;
-    color: black;  
-}
 
 #h2fontstyleamount {
     font-family: monospace;
@@ -251,4 +246,28 @@ h3 {
 #optionsBtn:hover {
     background: black;
     color: white;
+}
+
+#currentPizzas {
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    color: black; 
+}
+
+#currentpps {
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    color: black; 
+}
+
+#pizzasbakedthisascension {
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    color: black; 
+}
+
+#pizzasbakedalltime {
+font-family: 'Press Start 2P';
+font-size: 15px;
+color: black; 
 }
