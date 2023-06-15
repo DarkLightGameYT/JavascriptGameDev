@@ -24,3 +24,6 @@ function increaseCount(e) {
     document.getElementById('thisAscension').innerHTML = theCount;
     document.getElementById('alltime').innerHTML = theCount;
 }
+
+
+
