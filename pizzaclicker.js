@@ -25,5 +25,3 @@ function increaseCount(e) {
     document.getElementById('alltime').innerHTML = theCount;
 }
 
-
-
